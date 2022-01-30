@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
-import Home from '@/views/Home.vue'
+import Sonar from '@/views/Sonar.vue'
+import Camera from '@/views/Camera.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Sonar',
+    component: Sonar
+  },
+  {
+    path: '/camera',
+    name: 'Camera',
+    component: Camera
   }
 ]
 

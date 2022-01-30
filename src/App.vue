@@ -1,6 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Sonar</router-link> |
+    <router-link to="/camera">Camera</router-link>
   </div>
   <router-view/>
 </template>
