@@ -11,7 +11,7 @@ import axios  from 'axios'
 export default defineComponent({
   data () {
     return {
-      path: 'http://localhost:5000/api/camera',
+      path: 'http://20.0.0.201:5000/api/camera',
       logs: ''
     }
   },
