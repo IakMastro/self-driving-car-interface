@@ -11,7 +11,7 @@ import axios  from 'axios'
 export default defineComponent({
   data () {
     return {
-      path: 'http://20.0.0.201:5000/api/camera',
+      path: 'https://rest.self-driving-car.project-garage.sexycoders.org/api/camera',
       logs: ''
     }
   },
